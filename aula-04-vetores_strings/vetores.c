@@ -11,10 +11,11 @@ int main(){
 
     }
 
-    notas[0] = 10;
-    notas[1] = 8;
+    printf("\n");
+    printf("Tamanho do vetor: %d",sizeof(notas)/sizeof(notas[0]));
+    
 
-
+    printf("\n");
     //Calcular a media das duas notas
     printf("A media das duas notas e: %.2f", (notas[0] + notas[1])/ 2);
 
